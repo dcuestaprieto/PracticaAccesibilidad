@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<plantilla:PlantillaGeneral xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mv="clr-namespace:PracticaInterfacesPrimerTrimestre.VistaModelo"
+             xmlns:plantilla="clr-namespace:PracticaInterfacesPrimerTrimestre.Plantillas"
+             x:Class="PracticaInterfacesPrimerTrimestre.Vista.VistaInicio">
+    <ContentPage.BindingContext>
+        <mv:ValidadorInicio/>
+    </ContentPage.BindingContext>
+    <VerticalStackLayout Margin="15">
+        <Label Text="Inicia Sesión" FontSize="30"/>
+        <Label Text="Nombre Usuario:"/>
+        <Entry Text="{Binding Username}"/>
+        <Label Text="Contraseña:" />
+        <Entry Text="{Binding Password}" Margin="0,0,0,20" IsPassword="True"/>
+        <Button Text="Validar" Command="{Binding ValidarCommand}" Margin="0,0,0,10"/>
+        <Button Text="Registro" Command="{Binding ChangeToRegisterViewCommand}"/>
+        <CollectionView ItemsSource="{Binding Errors}"/>
+    </VerticalStackLayout>
+</plantilla:PlantillaGeneral>
