@@ -10,9 +10,21 @@
                 <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
             </ResourceDictionary.MergedDictionaries>
             <ControlTemplate x:Key="plantilla">
-                
                 <Grid RowDefinitions="auto, *, auto">
-                    <Image Source="icon.jpg" Grid.Row="0" WidthRequest="50" HeightRequest="50" HorizontalOptions="Start" Margin="10"/>
+                    <FlexLayout
+                        IsClippedToBounds="True"
+                        Direction="Row"
+                        AlignItems="Center"
+                        JustifyContent="Start"
+                        HeightRequest="100">
+
+                        <Image
+                            WidthRequest="50"
+                            Margin="10"
+                            Source="icon.jpg"/>
+                        <Label
+                            Text="Cerrar Sesión"/>
+                    </FlexLayout>
                     <ContentPresenter Grid.Row="1"/>
 
                     <Label Text="Linkedin" Grid.Row="2"/>

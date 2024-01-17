@@ -62,10 +62,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Templates\TemplateUsuario.xaml">
+	  <MauiXaml Update="Templates\TemplatePerro.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Vista\VistaInicio.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Vista\VistaPerros.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Vista\VistaRegistro.xaml">

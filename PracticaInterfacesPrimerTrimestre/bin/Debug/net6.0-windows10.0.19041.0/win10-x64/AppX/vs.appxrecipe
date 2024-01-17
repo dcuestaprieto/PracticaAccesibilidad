@@ -29,29 +29,29 @@
     <AppXManifest Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-01-17T18:47:44.978</Modified>
+      <Modified>2024-01-17T19:19:49.084</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-01-17T18:42:28.311</Modified>
+      <Modified>2024-01-17T19:19:48.806</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\PracticaAccesibilidad.runtimeconfig.json">
       <PackagePath>PracticaAccesibilidad.runtimeconfig.json</PackagePath>
-      <Modified>2024-01-17T18:42:28.027</Modified>
+      <Modified>2024-01-17T19:19:48.741</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\PracticaAccesibilidad.dll">
       <PackagePath>PracticaAccesibilidad.dll</PackagePath>
-      <Modified>2024-01-17T18:42:26.571</Modified>
+      <Modified>2024-01-17T19:19:47.528</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>PracticaAccesibilidad.exe</PackagePath>
-      <Modified>2024-01-17T18:42:26.599</Modified>
+      <Modified>2024-01-17T19:19:47.539</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\PracticaAccesibilidad.deps.json">
       <PackagePath>PracticaAccesibilidad.deps.json</PackagePath>
-      <Modified>2024-01-17T18:42:27.917</Modified>
+      <Modified>2024-01-17T19:19:48.698</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.26\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1119,239 +1119,239 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.064</Modified>
+      <Modified>2024-01-17T19:19:19.556</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.079</Modified>
+      <Modified>2024-01-17T19:19:19.557</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.103</Modified>
+      <Modified>2024-01-17T19:19:19.558</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.142</Modified>
+      <Modified>2024-01-17T19:19:19.558</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.298</Modified>
+      <Modified>2024-01-17T19:19:19.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2024-01-16T20:17:46.525</Modified>
+      <Modified>2024-01-17T19:19:19.511</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
-      <Modified>2024-01-16T20:17:46.526</Modified>
+      <Modified>2024-01-17T19:19:19.513</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-01-17T06:30:07.354</Modified>
+      <Modified>2024-01-17T19:19:19.514</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.689</Modified>
+      <Modified>2024-01-17T19:19:19.515</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.706</Modified>
+      <Modified>2024-01-17T19:19:19.516</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.720</Modified>
+      <Modified>2024-01-17T19:19:19.516</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.740</Modified>
+      <Modified>2024-01-17T19:19:19.517</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.814</Modified>
+      <Modified>2024-01-17T19:19:19.518</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.446</Modified>
+      <Modified>2024-01-17T19:19:19.518</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.450</Modified>
+      <Modified>2024-01-17T19:19:19.519</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.467</Modified>
+      <Modified>2024-01-17T19:19:19.520</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.455</Modified>
+      <Modified>2024-01-17T19:19:19.521</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.459</Modified>
+      <Modified>2024-01-17T19:19:19.521</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.419</Modified>
+      <Modified>2024-01-17T19:19:19.522</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.422</Modified>
+      <Modified>2024-01-17T19:19:19.523</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.440</Modified>
+      <Modified>2024-01-17T19:19:19.524</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.426</Modified>
+      <Modified>2024-01-17T19:19:19.525</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.430</Modified>
+      <Modified>2024-01-17T19:19:19.526</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.370</Modified>
+      <Modified>2024-01-17T19:19:19.526</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.375</Modified>
+      <Modified>2024-01-17T19:19:19.527</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.380</Modified>
+      <Modified>2024-01-17T19:19:19.528</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.385</Modified>
+      <Modified>2024-01-17T19:19:19.528</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.392</Modified>
+      <Modified>2024-01-17T19:19:19.529</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.396</Modified>
+      <Modified>2024-01-17T19:19:19.530</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.400</Modified>
+      <Modified>2024-01-17T19:19:19.530</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.415</Modified>
+      <Modified>2024-01-17T19:19:19.531</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.403</Modified>
+      <Modified>2024-01-17T19:19:19.532</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.406</Modified>
+      <Modified>2024-01-17T19:19:19.532</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.536</Modified>
+      <Modified>2024-01-17T19:19:19.533</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.545</Modified>
+      <Modified>2024-01-17T19:19:19.534</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.555</Modified>
+      <Modified>2024-01-17T19:19:19.535</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.568</Modified>
+      <Modified>2024-01-17T19:19:19.535</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.590</Modified>
+      <Modified>2024-01-17T19:19:19.536</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.498</Modified>
+      <Modified>2024-01-17T19:19:19.537</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.506</Modified>
+      <Modified>2024-01-17T19:19:19.537</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.511</Modified>
+      <Modified>2024-01-17T19:19:19.538</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.517</Modified>
+      <Modified>2024-01-17T19:19:19.539</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.530</Modified>
+      <Modified>2024-01-17T19:19:19.541</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.471</Modified>
+      <Modified>2024-01-17T19:19:19.542</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.476</Modified>
+      <Modified>2024-01-17T19:19:19.542</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.481</Modified>
+      <Modified>2024-01-17T19:19:19.543</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.485</Modified>
+      <Modified>2024-01-17T19:19:19.544</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.492</Modified>
+      <Modified>2024-01-17T19:19:19.545</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.599</Modified>
+      <Modified>2024-01-17T19:19:19.545</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.608</Modified>
+      <Modified>2024-01-17T19:19:19.546</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.618</Modified>
+      <Modified>2024-01-17T19:19:19.547</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.631</Modified>
+      <Modified>2024-01-17T19:19:19.548</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.675</Modified>
+      <Modified>2024-01-17T19:19:19.549</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.395</Modified>
+      <Modified>2024-01-17T19:19:19.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.406</Modified>
+      <Modified>2024-01-17T19:19:19.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.421</Modified>
+      <Modified>2024-01-17T19:19:19.551</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.442</Modified>
+      <Modified>2024-01-17T19:19:19.552</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-01-17T06:30:07.496</Modified>
+      <Modified>2024-01-17T19:19:19.553</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dcues\Source\Repos\PracticaAccesibilidad\PracticaInterfacesPrimerTrimestre\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon.scale-100.jpg">
       <PackagePath>icon.scale-100.jpg</PackagePath>
-      <Modified>2024-01-16T20:17:46.528</Modified>
+      <Modified>2024-01-17T19:19:19.555</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
