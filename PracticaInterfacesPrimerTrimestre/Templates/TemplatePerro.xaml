@@ -2,17 +2,23 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PracticaInterfacesPrimerTrimestre.Templates.TemplatePerro"
-             xmlns:mo="clr-namespace:API.Modelo"
+             xmlns:mo="clr-namespace:PracticaInterfacesPrimerTrimestre.Modelo"
              Title="TemplatePerro"
              x:DataType="mo:Dog">
     <Frame Background="white" Margin="5" Padding="5" >
         <StackLayout Margin="10,0,0,0">
-            <Label Text="Raza:"/>
-            <Label Text="{Binding Name}" FontSize="18" FontAttributes="Bold" TextColor="#B21A32" Margin="0,0,0,10"/>
+            <Label Text="Razaasdfasdfasdfasdfasdfasd:"/>
+            <Label Text="{Binding Name}" x:Name="NombrePerro" FontSize="18" FontAttributes="Bold" TextColor="#B21A32" Margin="0,0,0,10"/>
             <StackLayout Orientation="Horizontal">
                 <Label Text="Origen: " Padding="0,0,10,0" TextColor="Black" FontAttributes="Bold"/>
                 <Label Text="{Binding Origin}" FontSize="14" TextColor="Black"/>
             </StackLayout>
+            <Button
+                Text="asdf"
+                Clicked="AddToFavourites"
+                TextColor="Black"
+                WidthRequest="250"
+                Background="#B21A32"/>
         </StackLayout>
     </Frame>
 </ContentPage>
