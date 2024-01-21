@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<plantilla:PlantillaGeneral xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:mv="clr-namespace:PracticaInterfacesPrimerTrimestre.VistaModelo"
              xmlns:plantilla="clr-namespace:PracticaInterfacesPrimerTrimestre.Plantillas"
@@ -17,4 +17,4 @@
         <Button Text="Registro" Command="{Binding ChangeToRegisterViewCommand}"/>
         <CollectionView ItemsSource="{Binding Errors}"/>
     </VerticalStackLayout>
-</plantilla:PlantillaGeneral>
+</ContentPage>

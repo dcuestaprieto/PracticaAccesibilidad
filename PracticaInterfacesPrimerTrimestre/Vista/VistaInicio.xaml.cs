@@ -1,4 +1,4 @@
-using API.Modelo;
+using PracticaInterfacesPrimerTrimestre.Modelo;
 using Newtonsoft.Json;
 using PracticaInterfacesPrimerTrimestre.Plantillas;
 using System.Collections.ObjectModel;
@@ -6,7 +6,7 @@ using System.Diagnostics;
 
 namespace PracticaInterfacesPrimerTrimestre.Vista;
 
-public partial class VistaInicio : PlantillaGeneral
+public partial class VistaInicio : ContentPage
 {
     public static ObservableCollection<Dog> Dogs { get; set; }
 

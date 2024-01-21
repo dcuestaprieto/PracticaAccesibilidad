@@ -6,14 +6,11 @@
              xmlns:template="clr-namespace:PracticaInterfacesPrimerTrimestre.Templates"
              xmlns:mo="clr-namespace:API.Modelo"
              xmlns:vm="clr-namespace:PracticaInterfacesPrimerTrimestre.VistaModelo">
-    <plantilla:PlantillaGeneral.BindingContext>
-        <vm:ViewModelVistaPerros/>
-    </plantilla:PlantillaGeneral.BindingContext>
     <FlexLayout AlignContent="Center" JustifyContent="Center" Margin="100,20,0,0">
         <CollectionView x:Name="ListaPerros" ItemsLayout="VerticalGrid,2">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <template:TemplatePerro WidthRequest="500" HeightRequest="500"/>
+                    <template:TemplatePerro WidthRequest="300" HeightRequest="300"/>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
