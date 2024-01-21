@@ -57,7 +57,9 @@ namespace PracticaInterfacesPrimerTrimestre.VistaModelo
                 {
                     //si no existe lo añado a la base de datos
                     App.UsuarioRepositorio.Add(new User { Name = this.Name, Username = this.Username, Password = this.Password});
+                    VariablesCompartidas.CurrentUser = Username;
                     //TODO cambiar a la vista correcta
+                    await AppShell.Current.GoToAsync(nameof(Vista.VistaPerros));
                 }
                 else
                 {

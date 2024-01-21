@@ -1,5 +1,4 @@
-﻿using API.Modelo;
-using PracticaInterfacesPrimerTrimestre.Modelo;
+﻿using PracticaInterfacesPrimerTrimestre.Modelo;
 using PracticaInterfacesPrimerTrimestre.Vista;
 using System;
 using System.Collections.Generic;

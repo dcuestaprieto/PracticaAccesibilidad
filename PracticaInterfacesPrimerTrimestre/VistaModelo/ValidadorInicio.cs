@@ -48,9 +48,9 @@ namespace PracticaInterfacesPrimerTrimestre.VistaModelo
                 {
                     if (App.UsuarioRepositorio.UsuarioCorrecto(Username, Password))
                     {
-                        Page page = new Vista.VistaPerros();
+                        VariablesCompartidas.CurrentUser = Username;
                         //TODO cambiar a la vista correcta
-                        await AppShell.Current.Navigation.PushAsync(page);
+                        await AppShell.Current.GoToAsync(nameof(Vista.VistaPerros));
                     }
                     else
                     {
