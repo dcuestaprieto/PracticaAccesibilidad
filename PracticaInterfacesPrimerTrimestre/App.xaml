@@ -2,6 +2,7 @@
 <Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:PracticaInterfacesPrimerTrimestre"
+             xmlns:mo="clr-namespace:PracticaInterfacesPrimerTrimestre.Modelo"
              x:Class="PracticaInterfacesPrimerTrimestre.App">
     <Application.Resources>
         <ResourceDictionary>
@@ -22,8 +23,11 @@
                             WidthRequest="50"
                             Margin="10"
                             Source="icon.jpg"/>
-                        <Label
-                            Text="Cerrar Sesión"/>
+                        <Label Text="{x:Static mo:VariablesCompartidas.CurrentUser}"/>
+                        <Button
+                            Text="Cerrar Sesión"
+                            Clicked="CerrarSesion"
+                            Margin="5"/>
                     </FlexLayout>
                     <ContentPresenter Grid.Row="1"/>
 
