@@ -3,12 +3,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PracticaInterfacesPrimerTrimestre.Vista.VistaPerros"
              xmlns:plantilla="clr-namespace:PracticaInterfacesPrimerTrimestre.Plantillas"
-             xmlns:template="clr-namespace:PracticaInterfacesPrimerTrimestre.Templates">
-    <FlexLayout AlignContent="Center" JustifyContent="Center" Margin="0,20,0,0">
+             xmlns:template="clr-namespace:PracticaInterfacesPrimerTrimestre.Templates"
+             xmlns:mo="clr-namespace:API.Modelo"
+             xmlns:vm="clr-namespace:PracticaInterfacesPrimerTrimestre.VistaModelo">
+    <plantilla:PlantillaGeneral.BindingContext>
+        <vm:ViewModelVistaPerros/>
+    </plantilla:PlantillaGeneral.BindingContext>
+    <FlexLayout AlignContent="Center" JustifyContent="Center" Margin="100,20,0,0">
         <CollectionView x:Name="ListaPerros" ItemsLayout="VerticalGrid,2">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <template:TemplatePerro/>
+                    <template:TemplatePerro WidthRequest="500" HeightRequest="500"/>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
