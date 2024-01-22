@@ -11,8 +11,8 @@ namespace PracticaInterfacesPrimerTrimestre.Modelo
     public class Favorito
     {
         [PrimaryKey]
+        public int Id { get; set; }
         public string UserId { get; set; }
-        [PrimaryKey]
         public string DogId { get; set; }
     }
 }

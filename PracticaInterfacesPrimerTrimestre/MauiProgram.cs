@@ -18,6 +18,9 @@ public static class MauiProgram
         builder.Services.AddSingleton<UsuarioRepositorio>(
             s => ActivatorUtilities.CreateInstance<UsuarioRepositorio>(s, ruta)
         );
+        builder.Services.AddSingleton<FavoritosRepositorio>(
+            s => ActivatorUtilities.CreateInstance<FavoritosRepositorio>(s, ruta)
+        );
 
         return builder.Build();
 	}

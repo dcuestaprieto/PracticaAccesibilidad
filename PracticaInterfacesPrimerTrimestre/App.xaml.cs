@@ -7,18 +7,18 @@ public partial class App : Application
 	public static UsuarioRepositorio UsuarioRepositorio { get; set; }
     public static FavoritosRepositorio FavoritosRepositorio { get; set; }
 
-    public App(UsuarioRepositorio usuarioRepositorio, FavoritosRepositorio favoritos)
+    public App(UsuarioRepositorio usuarioRepositorio, FavoritosRepositorio favoritosRepositorio)
 	{
         InitializeComponent();
         UsuarioRepositorio = usuarioRepositorio;
-        FavoritosRepositorio = favoritos;
+        FavoritosRepositorio = favoritosRepositorio;
         MainPage = new AppShell();
 	}
 
     private async void CerrarSesion(object sender, EventArgs e)
     {
         //Y borrar el usuario actual del fichero VariablesCompartidas
-        VariablesCompartidas.CurrentUser = null;
+        VariablesCompartidas.CurrentUser = "";
         await AppShell.Current.GoToAsync(nameof(Vista.VistaInicio));
     }
 }
