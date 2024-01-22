@@ -26,9 +26,26 @@ namespace PracticaInterfacesPrimerTrimestre.Repositorios
             }
         }
 
-        internal static ObservableCollection<Dog> FetchFavouritesDog(string v)
+        public void AddFavourite(string RazaPerro)
         {
-            return null;
+            connection.Insert(new Favorito { DogId = RazaPerro, UserId = VariablesCompartidas.CurrentUser});
+        }
+        public Boolean FavouriteExists(string RazaPerro)
+        {
+            var favorito = connection.Table<Favorito>().Where(favorito => 
+                favorito.DogId.Equals(RazaPerro) && favorito.UserId.Equals(VariablesCompartidas.CurrentUser)
+            ).FirstOrDefault();
+
+
+            return favorito != null;
+        }
+        public void RemoveFavourite(Favorito favorito)
+        {
+            connection.Delete(favorito);
+        }
+        public Favorito FindFavourite(string DogId)
+        {
+            return connection.Table<Favorito>().Where(favorito => favorito.DogId.Equals(DogId) && favorito.UserId.Equals(VariablesCompartidas.CurrentUser)).FirstOrDefault();
         }
     }
 }

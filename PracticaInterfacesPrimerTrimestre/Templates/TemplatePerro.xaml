@@ -14,7 +14,7 @@
                 <Label Text="{Binding Origin}" FontSize="14" TextColor="Black"/>
             </StackLayout>
             <Button
-                Text="asdf"
+                x:Name="ButtonFavourite"
                 Clicked="AddToFavourites"
                 TextColor="Black"
                 WidthRequest="250"

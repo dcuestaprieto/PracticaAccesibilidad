@@ -10,7 +10,7 @@ namespace PracticaInterfacesPrimerTrimestre.Modelo
     [Table("favoritos")]
     public class Favorito
     {
-        [PrimaryKey]
+        [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
         public string UserId { get; set; }
         public string DogId { get; set; }

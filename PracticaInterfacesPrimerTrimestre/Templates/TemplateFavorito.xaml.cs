@@ -10,6 +10,6 @@ public partial class TemplateFavorito : ContentView
 	public TemplateFavorito()
 	{
 		InitializeComponent();
-		FavouritesDogs = FavoritosRepositorio.FetchFavouritesDog("");
+		//FavouritesDogs = FavoritosRepositorio.FetchFavouritesDog("");
 	}
 }
