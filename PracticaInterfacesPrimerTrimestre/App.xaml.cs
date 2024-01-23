@@ -36,10 +36,19 @@ public partial class App : Application
             {
                 case "Ver Todos":
                     Debug.WriteLine("has clickado en ver todos");
-                    await AppShell.Current.GoToAsync(nameof(Vista.VistaPerros));
+                    if (!VariablesCompartidas.CurrentUser.Equals(""))
+                    {
+                        await AppShell.Current.GoToAsync(nameof(Vista.VistaPerros));
+                    }
+                    else
+                    {
+                        //no permitir cambiar si el usuario no está registrado
+                        //DisplayAlert();
+                    }
                     break;
                 case "Ver Favoritos":
                     Debug.WriteLine("has clickado en favoritos");
+                    await AppShell.Current.GoToAsync(nameof(Vista.VistaFavoritos));
                     break;
                 default: break;
                  

@@ -29,7 +29,7 @@ public partial class TemplatePerro : ContentPage
         //var resultado = await DisplayActionSheet("Ayuda", "cancelar", null, "Si", "No");
         if (sender is Button clickedButton)
         {
-            // Obtener el contexto del botón (puede ser un elemento del template)
+            // obtenemos el contexto del boton que ha desencadenado la acción (ya nos hemos asegurado de que sea un boton)
             var context = clickedButton.BindingContext;
 
             // Realizar casting al tipo adecuado

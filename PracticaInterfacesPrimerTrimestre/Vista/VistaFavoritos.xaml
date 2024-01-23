@@ -6,12 +6,17 @@
              xmlns:template="clr-namespace:PracticaInterfacesPrimerTrimestre.Templates"
              Title="VistaFavoritos">
     <FlexLayout AlignContent="Center" JustifyContent="Center" Margin="100,20,0,0">
-        <CollectionView x:Name="ListaPerros" ItemsLayout="VerticalGrid,2">
+        <CollectionView
+            x:Name="ListaPerros"
+            ItemsLayout="VerticalGrid,1">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <template:TemplateFavorito WidthRequest="500" HeightRequest="500"/>
+                    <template:TemplatePerro WidthRequest="300" HeightRequest="300"/>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
+            <CollectionView.EmptyView>
+                <Label Text="No has añadido perros a favoritos"/>
+            </CollectionView.EmptyView>
         </CollectionView>
     </FlexLayout>
 </plantilla:PlantillaGeneral>

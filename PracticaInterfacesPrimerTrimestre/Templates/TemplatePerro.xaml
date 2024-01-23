@@ -5,14 +5,13 @@
              xmlns:mo="clr-namespace:PracticaInterfacesPrimerTrimestre.Modelo"
              Title="TemplatePerro"
              x:DataType="mo:Dog">
-    <Frame Background="white" Margin="5" Padding="5" >
-        <StackLayout Margin="10,0,0,0">
-            <Label Text="Razaasdfasdfasdfasdfasdfasd:"/>
+    <Frame Background="white" Margin="5" Padding="5" WidthRequest="500">
+        <StackLayout Margin="10,0,0,0" Orientation="Vertical">
+            <Image
+                Source="{Binding Image.Url}"
+                WidthRequest="100"
+                HeightRequest="50"/>
             <Label Text="{Binding Name}" x:Name="NombrePerro" FontSize="18" FontAttributes="Bold" TextColor="#B21A32" Margin="0,0,0,10"/>
-            <StackLayout Orientation="Horizontal">
-                <Label Text="Origen: " Padding="0,0,10,0" TextColor="Black" FontAttributes="Bold"/>
-                <Label Text="{Binding Origin}" FontSize="14" TextColor="Black"/>
-            </StackLayout>
             <Button
                 x:Name="ButtonFavourite"
                 Clicked="AddToFavourites"
