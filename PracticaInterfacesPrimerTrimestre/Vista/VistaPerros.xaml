@@ -4,7 +4,7 @@
              x:Class="PracticaInterfacesPrimerTrimestre.Vista.VistaPerros"
              xmlns:plantilla="clr-namespace:PracticaInterfacesPrimerTrimestre.Plantillas"
              xmlns:template="clr-namespace:PracticaInterfacesPrimerTrimestre.Templates"
-             xmlns:mo="clr-namespace:API.Modelo"
+             xmlns:mo="clr-namespace:PracticaInterfacesPrimerTrimestre.Modelo"
              xmlns:vm="clr-namespace:PracticaInterfacesPrimerTrimestre.VistaModelo">
     <FlexLayout AlignContent="Center" JustifyContent="Center" Margin="100,20,0,0">
         <CollectionView x:Name="ListaPerros" ItemsLayout="VerticalGrid,2">

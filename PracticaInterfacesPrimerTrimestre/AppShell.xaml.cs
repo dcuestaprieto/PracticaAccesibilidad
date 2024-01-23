@@ -8,5 +8,6 @@ public partial class AppShell : Shell
         Routing.RegisterRoute(nameof(Vista.VistaInicio), typeof(Vista.VistaInicio));
         Routing.RegisterRoute(nameof(Vista.VistaRegistro), typeof(Vista.VistaRegistro));
         Routing.RegisterRoute(nameof(Vista.VistaPerros), typeof(Vista.VistaPerros));
+        Routing.RegisterRoute(nameof(Vista.VistaFavoritos), typeof(Vista.VistaFavoritos));
     }
 }

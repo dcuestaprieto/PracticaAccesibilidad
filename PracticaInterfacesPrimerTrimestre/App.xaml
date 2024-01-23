@@ -10,7 +10,7 @@
                 <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
                 <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
             </ResourceDictionary.MergedDictionaries>
-            <ControlTemplate x:Key="plantilla">
+            <ControlTemplate x:Key="MenuNavegacion">
                 <Grid RowDefinitions="auto, *, auto">
                     <FlexLayout
                         IsClippedToBounds="True"
@@ -28,6 +28,12 @@
                             Text="Cerrar Sesión"
                             Clicked="CerrarSesion"
                             Margin="5"/>
+                        <Button
+                            Text="Ver Favoritos"
+                            Clicked="CambiarVista"/>
+                        <Button
+                            Text="Ver Todos"
+                            Clicked="CambiarVista"/>
                     </FlexLayout>
                     <ContentPresenter Grid.Row="1"/>
 

@@ -17,8 +17,7 @@
                 x:Name="ButtonFavourite"
                 Clicked="AddToFavourites"
                 TextColor="Black"
-                WidthRequest="250"
-                Background="#B21A32"/>
+                WidthRequest="250"/>
         </StackLayout>
     </Frame>
 </ContentPage>

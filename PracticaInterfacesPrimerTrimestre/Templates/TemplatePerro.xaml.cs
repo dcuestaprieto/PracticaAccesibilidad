@@ -17,6 +17,9 @@ public partial class TemplatePerro : ContentPage
             ButtonFavourite.Text = App.FavoritosRepositorio.FavouriteExists(NombrePerro.Text)
             ? "Quitar de favoritos"
             : "Añadir a favoritos";
+            ButtonFavourite.BackgroundColor = App.FavoritosRepositorio.FavouriteExists(NombrePerro.Text)
+            ? Color.FromRgb(255,0,0)
+            : Color.FromRgb(0, 0, 255);
         });
     }
 
@@ -41,12 +44,14 @@ public partial class TemplatePerro : ContentPage
                     Favorito FavouriteToDelete = App.FavoritosRepositorio.FindFavourite(NombrePerroContexto);
                     App.FavoritosRepositorio.RemoveFavourite(FavouriteToDelete);
                     clickedButton.Text = "Añadir a favoritos";
+                    clickedButton.BackgroundColor = Color.FromRgb(0, 0, 255);
                 }
                 else
                 {
                     //Debug.WriteLine($"no existe {NombrePerroContexto}");
                     App.FavoritosRepositorio.AddFavourite(NombrePerroContexto);
                     clickedButton.Text = "Quitar de favoritos";
+                    clickedButton.BackgroundColor = Color.FromRgb(255, 0, 0);
                 }
             }
         }
