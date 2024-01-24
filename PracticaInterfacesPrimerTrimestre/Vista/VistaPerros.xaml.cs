@@ -14,4 +14,32 @@ public partial class VistaPerros : PlantillaGeneral
 		InitializeComponent();
         ListaPerros.ItemsSource = VistaInicio.Dogs;
 	}
+
+    private void BuscarPerros(object sender, EventArgs e)
+    {
+        if (!string.IsNullOrEmpty(Search.Text))
+        {
+            //Debug.WriteLine(Search.Text);
+            CambiarPerros(Search.Text);
+        }
+        else
+        {
+            ListaPerros.ItemsSource = VistaInicio.Dogs;
+        }
+
+    }
+
+    private void CambiarPerros(string NombrePerro)
+    {
+        ObservableCollection<Dog> nuevosPerros = new ObservableCollection<Dog>();
+        foreach (Dog dog in VistaInicio.Dogs)
+        {
+            if (dog.Name.ToLower().Contains(NombrePerro.ToLower()))
+            {
+                Debug.WriteLine(dog.Name);
+                nuevosPerros.Add(dog);
+            }
+        }
+        ListaPerros.ItemsSource = nuevosPerros;
+    }
 }

@@ -37,7 +37,29 @@
                     </FlexLayout>
                     <ContentPresenter Grid.Row="1"/>
 
-                    <Label Text="Linkedin" Grid.Row="2"/>
+                    <Label>
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer 
+              Command="{Binding OpenUrlCommand}"
+              CommandParameter="https://learn.microsoft.com/en-us/dotnet/maui/" 
+           />
+                        </Label.GestureRecognizers>
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span 
+                 Text="To learn more, " 
+              />
+                                <Span 
+                 Text="check the documentation"
+                 TextColor="Blue"
+                 TextDecorations="Underline">
+                                </Span>
+                                <Span 
+                 Text="." 
+              />
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
                 </Grid>
             </ControlTemplate>
         </ResourceDictionary>

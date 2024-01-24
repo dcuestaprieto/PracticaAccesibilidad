@@ -1,12 +1,15 @@
-﻿using PracticaInterfacesPrimerTrimestre.Modelo;
+﻿using CommunityToolkit.Mvvm.Input;
+using PracticaInterfacesPrimerTrimestre.Modelo;
 using PracticaInterfacesPrimerTrimestre.Repositorios;
 using System.Diagnostics;
+using System.Windows.Input;
 
 namespace PracticaInterfacesPrimerTrimestre;
 
 public partial class App : Application
 {
-	public static UsuarioRepositorio UsuarioRepositorio { get; set; }
+    public IRelayCommand OpenUrlCommand => new RelayCommand<String>(launch_browser);
+    public static UsuarioRepositorio UsuarioRepositorio { get; set; }
     public static FavoritosRepositorio FavoritosRepositorio { get; set; }
 
     public App(UsuarioRepositorio usuarioRepositorio, FavoritosRepositorio favoritosRepositorio)
@@ -15,7 +18,16 @@ public partial class App : Application
         UsuarioRepositorio = usuarioRepositorio;
         FavoritosRepositorio = favoritosRepositorio;
         MainPage = new AppShell();
+        BindingContext = this;
 	}
+    private async void launch_browser(String url)
+    {
+
+        Debug.WriteLine($"*** Tap: {url}");
+
+        await Browser.OpenAsync(url);
+
+    }
 
     private async void CerrarSesion(object sender, EventArgs e)
     {

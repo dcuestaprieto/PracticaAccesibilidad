@@ -6,11 +6,17 @@
              xmlns:template="clr-namespace:PracticaInterfacesPrimerTrimestre.Templates"
              xmlns:mo="clr-namespace:PracticaInterfacesPrimerTrimestre.Modelo"
              xmlns:vm="clr-namespace:PracticaInterfacesPrimerTrimestre.VistaModelo">
-    <FlexLayout AlignContent="Center" JustifyContent="Center" Margin="100,20,0,0">
-        <CollectionView x:Name="ListaPerros" ItemsLayout="VerticalGrid,2">
+    <FlexLayout Direction="Column" AlignContent="Center" JustifyContent="Center" Margin="100,20,0,0">
+        <SearchBar
+            x:Name="Search"
+            SearchButtonPressed="BuscarPerros"
+            HeightRequest="50"
+            Placeholder="Busca tus perros favoritos..."/>
+
+        <CollectionView x:Name="ListaPerros" ItemsLayout="VerticalGrid,2" Margin="10">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <template:TemplatePerro WidthRequest="300" HeightRequest="300"/>
+                    <template:TemplatePerro WidthRequest="300" HeightRequest="350"/>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>

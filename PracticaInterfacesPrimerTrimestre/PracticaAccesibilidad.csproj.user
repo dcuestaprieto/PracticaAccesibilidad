@@ -14,9 +14,6 @@
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
   <ItemGroup>
-    <MauiXaml Update="Templates\TemplateFavorito.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
     <MauiXaml Update="Templates\TemplatePerro.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

@@ -62,9 +62,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Templates\TemplateFavorito.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
 	  <MauiXaml Update="Templates\TemplatePerro.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
