@@ -50,6 +50,7 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\Images\icon.jpg" />
+	  <None Remove="Resources\Images\icon_linkedin.png" />
 	</ItemGroup>
 
 	<ItemGroup>

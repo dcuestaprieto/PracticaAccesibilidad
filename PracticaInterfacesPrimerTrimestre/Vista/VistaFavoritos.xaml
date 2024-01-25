@@ -4,7 +4,7 @@
              x:Class="PracticaInterfacesPrimerTrimestre.Vista.VistaFavoritos"
              xmlns:plantilla="clr-namespace:PracticaInterfacesPrimerTrimestre.Plantillas"
              xmlns:template="clr-namespace:PracticaInterfacesPrimerTrimestre.Templates">
-    <FlexLayout AlignContent="Center" JustifyContent="Center" Margin="100,20,0,0">
+    <FlexLayout Direction="Row" AlignContent="Center" JustifyContent="Center" Margin="100,20,0,0">
         <CollectionView
             x:Name="ListaPerros">
             <CollectionView.ItemTemplate>

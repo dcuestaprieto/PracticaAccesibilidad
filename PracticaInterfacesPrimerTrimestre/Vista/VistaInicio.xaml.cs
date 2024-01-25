@@ -21,12 +21,13 @@ public partial class VistaInicio : ContentPage
         ValidarUsuario();
     }
 
-    private void ValidarUsuario()
+    private async void ValidarUsuario()
     {
-        Debug.WriteLine("usuario actual: "+VariablesCompartidas.CurrentUser);
         if (string.IsNullOrEmpty(VariablesCompartidas.CurrentUser))
         {
-            DisplayAlert("titulo", "mensaje", "Cancelar");
+            //en la primera carga entra aquí, pero muestra el mensaje antes de mostrar la vista
+            //pero el resto de veces sí lo hace
+            await DisplayAlert("Advertencia", "Debes iniciar sesión para continuar", "Ok");
         }
     }
 

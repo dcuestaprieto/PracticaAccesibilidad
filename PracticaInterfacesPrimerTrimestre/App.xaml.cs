@@ -8,7 +8,6 @@ namespace PracticaInterfacesPrimerTrimestre;
 
 public partial class App : Application
 {
-    public IRelayCommand OpenUrlCommand => new RelayCommand<String>(launch_browser);
     public static UsuarioRepositorio UsuarioRepositorio { get; set; }
     public static FavoritosRepositorio FavoritosRepositorio { get; set; }
 
@@ -20,14 +19,7 @@ public partial class App : Application
         MainPage = new AppShell();
         BindingContext = this;
 	}
-    private async void launch_browser(String url)
-    {
 
-        Debug.WriteLine($"*** Tap: {url}");
-
-        await Browser.OpenAsync(url);
-
-    }
 
     private async void CerrarSesion(object sender, EventArgs e)
     {
@@ -68,5 +60,9 @@ public partial class App : Application
 
             
         }
+    }
+    private async void AbrirSitioWeb(object sender, System.EventArgs e)
+    {
+        await Launcher.OpenAsync("https://www.linkedin.com");
     }
 }
