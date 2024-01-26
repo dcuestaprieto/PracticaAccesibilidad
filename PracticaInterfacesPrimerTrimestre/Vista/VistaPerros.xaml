@@ -7,19 +7,36 @@
              xmlns:mo="clr-namespace:PracticaInterfacesPrimerTrimestre.Modelo"
              xmlns:vm="clr-namespace:PracticaInterfacesPrimerTrimestre.VistaModelo">
     <FlexLayout Direction="Column" AlignContent="Center" JustifyContent="Center" Margin="100,20,0,0">
-        <SearchBar
-            x:Name="Search"
-            SearchButtonPressed="BuscarPerros"
-            WidthRequest="700"
-            HeightRequest="50"
-            Placeholder="Busca tus perros favoritos..."/>
+
+        <HorizontalStackLayout 
+            HorizontalOptions="CenterAndExpand"
+            VerticalOptions="Center">
+            <Picker
+                x:Name="MiPicker"
+                Title="Selecciona:"
+                SelectedIndexChanged="ItemPickerChanged">
+                <Picker.Items>
+                    <x:String>Raza</x:String>
+                    <x:String>Origen</x:String>
+                </Picker.Items>
+            </Picker>
+            <SearchBar
+                x:Name="Search"
+                SearchButtonPressed="BuscarPerros"
+                WidthRequest="700"
+                HeightRequest="50"
+                Placeholder="Busca tus perros favoritos..."/>
+        </HorizontalStackLayout>
 
         <CollectionView x:Name="ListaPerros" ItemsLayout="VerticalGrid,3" Margin="10">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <template:TemplatePerro WidthRequest="300" HeightRequest="350"/>
+                    <template:TemplatePerro WidthRequest="300" HeightRequest="400"/>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
+            <CollectionView.EmptyView>
+                <Label Text="No se han encontrado resultados"/>
+            </CollectionView.EmptyView>
         </CollectionView>
     </FlexLayout>
 </plantilla:PlantillaGeneral>

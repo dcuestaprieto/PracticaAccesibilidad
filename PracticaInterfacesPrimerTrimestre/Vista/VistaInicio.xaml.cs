@@ -37,11 +37,13 @@ public partial class VistaInicio : ContentPage
         HttpClient client = new HttpClient();
         string respuesta = await client.GetStringAsync(url);
         Dogs = JsonConvert.DeserializeObject<ObservableCollection<Dog>>(respuesta);
-        foreach (Dog album in Dogs)
+        foreach (Dog dog in Dogs)
         {
-            Debug.WriteLine($"Id: {album.Name}, titulo: {album.Image.Url}");
+            if (string.IsNullOrWhiteSpace(dog.Origin))
+            {
+                dog.Origin = "Unknown";
+            }
         }
-
 
 
     }

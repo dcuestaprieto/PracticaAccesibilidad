@@ -39,10 +39,10 @@
 
                     <HorizontalStackLayout
                         Grid.Row="2">
-                            <Label Text="Visitar sitio web"
-                               TextColor="Blue"
-                               TextDecorations="Underline"
-                               Grid.Row="2">
+                        <Label Text="Visitar sitio web"
+                            TextColor="Blue"
+                            TextDecorations="Underline"
+                            Grid.Row="2">
                             <Label.GestureRecognizers>
                                 <TapGestureRecognizer Tapped="AbrirSitioWeb"/>
                             </Label.GestureRecognizers>

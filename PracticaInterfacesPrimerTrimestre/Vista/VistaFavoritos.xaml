@@ -4,12 +4,13 @@
              x:Class="PracticaInterfacesPrimerTrimestre.Vista.VistaFavoritos"
              xmlns:plantilla="clr-namespace:PracticaInterfacesPrimerTrimestre.Plantillas"
              xmlns:template="clr-namespace:PracticaInterfacesPrimerTrimestre.Templates">
+    
     <FlexLayout Direction="Row" AlignContent="Center" JustifyContent="Center" Margin="100,20,0,0">
         <CollectionView
             x:Name="ListaPerros">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <template:TemplatePerro WidthRequest="300" HeightRequest="350"/>
+                    <template:TemplatePerro WidthRequest="300" HeightRequest="400"/>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
             <CollectionView.EmptyView>
