@@ -63,6 +63,6 @@ public partial class App : Application
     }
     private async void AbrirSitioWeb(object sender, System.EventArgs e)
     {
-        await Launcher.OpenAsync("https://www.linkedin.com");
+        await Launcher.OpenAsync("https://www.linkedin.com/in/diego-cuesta-prieto-programador-java-backend/");
     }
 }

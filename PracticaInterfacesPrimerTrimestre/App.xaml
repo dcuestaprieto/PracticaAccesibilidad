@@ -30,25 +30,33 @@
                             Margin="5"/>
                         <Button
                             Text="Ver Favoritos"
-                            Clicked="CambiarVista"/>
+                            Clicked="CambiarVista"
+                            Margin="5"/>
                         <Button
                             Text="Ver Todos"
-                            Clicked="CambiarVista"/>
+                            Clicked="CambiarVista"
+                            Margin="5"/>
                     </FlexLayout>
                     <ContentPresenter Grid.Row="1"/>
 
                     <HorizontalStackLayout
-                        Grid.Row="2">
-                        <Label Text="Visitar sitio web"
-                            TextColor="Blue"
+                        Grid.Row="2"
+                        HorizontalOptions="CenterAndExpand">
+                        <Label Text="Ver Linkedin"
+                            TextColor="White"
                             TextDecorations="Underline"
-                            Grid.Row="2">
+                            Grid.Row="2"
+                            Margin="25">
                             <Label.GestureRecognizers>
                                 <TapGestureRecognizer Tapped="AbrirSitioWeb"/>
                             </Label.GestureRecognizers>
                         </Label>
                         <Image
-                        Source="icon_linkedin.png"/>
+                        Source="icon_linkedin.png">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="AbrirSitioWeb"/>
+                            </Image.GestureRecognizers>
+                        </Image>
                     </HorizontalStackLayout>
                 </Grid>
             </ControlTemplate>

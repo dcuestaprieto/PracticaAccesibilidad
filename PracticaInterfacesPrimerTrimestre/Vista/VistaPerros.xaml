@@ -14,7 +14,8 @@
             <Picker
                 x:Name="MiPicker"
                 Title="Selecciona:"
-                SelectedIndexChanged="ItemPickerChanged">
+                SelectedIndexChanged="ItemPickerChanged"
+                Margin="20">
                 <Picker.Items>
                     <x:String>Raza</x:String>
                     <x:String>Origen</x:String>
